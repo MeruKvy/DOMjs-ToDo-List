@@ -4,14 +4,14 @@
   margin-top: 10px;
   align-items: center;
   justify-content: space-between;
-  
 }
 
 p {
   margin-left: 10px;
 }
 
-.container, .task {
+.container,
+.task {
   display: flex;
 }
 
@@ -27,7 +27,7 @@ p {
 }
 
 .deleteBtn {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 .addButton {
@@ -48,4 +48,8 @@ button,
 h1 {
   font-size: 40;
   margin: 0;
+}
+
+.hidden {
+  display: none;
 }
